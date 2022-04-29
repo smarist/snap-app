@@ -17,7 +17,7 @@ export default function NavMobile() {
         <div className="menu">
             <FontAwesomeIcon
             icon={faTimes}
-            className="nav-icon"
+            className="nav-icon1"
             onClick={()=> setShowMenu(false)}
             />
             <NavMobileMenu/>
