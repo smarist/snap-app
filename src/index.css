@@ -98,12 +98,11 @@
 }
 
 
-@media screen  and (min-width: 900px){
+@media screen  and (min-width: 899px){
 
   body {
     background: #FAFAFA;
     margin: 0;
-    padding: 2rem;
     font-family: 'Epilogue', sans-serif;
     font-weight: 500;
   }
@@ -113,19 +112,22 @@
   }
 
   .side{
-    padding: 6rem 10rem;
+    width: auto;
     display: grid;
     margin: 0 auto;
-    grid-gap: 1rem;
-    grid-template-columns: 2fr 1fr;
+    padding: 6rem 4rem;
+    grid-template-columns: 2fr 1.5fr;
     border: 2px solid red;
   }
 
   .side1{
+    margin: 0;
     width: auto;
     border: 2px solid red;
     display: flex;
     flex-direction: column;
+    align-content: flex-start;
+    padding-left: 6rem;
   }
 
   .side2{
@@ -135,10 +137,10 @@
   }
 
   .img-desktop{
-    width: 50vh;
+    border: 2px solid red;
+    width: 25rem;
     height: auto;
-    margin-top: -2rem;
-    margin-left: 7rem;
+    object-fit: contain;
     
   }
 
@@ -150,10 +152,12 @@
     margin-top: 3rem;
     margin-bottom: -0.2rem;
     padding: 0.4rem 0;
+    margin-left: 3rem;
     
   }
 
   .h1-div{
+    align-content: flex-start;
     height: 24%;
   }
 
@@ -161,13 +165,19 @@
     font-size: 3.4rem;
     word-spacing: 0.2rem;
     margin: 0;
+    text-align: left;
+    word-spacing: 0.4rem;
     
   }
 
   .btn-div{
     height: 40%;
+    border: 2px solid red;
+    width: 15rem;
   }
+
   .side-btn{
+    margin-left: -7rem;
     height: 3rem;
     width: 8rem;
     font-family: 'Epilogue', sans-serif;
@@ -178,6 +188,7 @@
     cursor: pointer;
     border-radius: 7px;
     margin-top: 2rem;
+    
   }
 
   .side-btn:hover{
@@ -187,11 +198,13 @@
   }
 
   p{
+    text-align: left;
     font-size: 18px;
     height: 20%;
     line-height: 30px;
     word-spacing: 0.4rem;
     width: 30rem;
+    margin-left: -0.1rem;
 
   }
 }
