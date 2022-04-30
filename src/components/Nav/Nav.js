@@ -1,4 +1,4 @@
-import react from "react"
+import React from "react"
 import NavMobile from "./NavMobile"
 import NavWeb from "./NavWeb"
 import { useMediaQuery } from 'react-responsive'

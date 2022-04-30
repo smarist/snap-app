@@ -28,8 +28,8 @@ export default function Content(){
                 </ul>
             </div>
             <div className='side2'>
-                {isTabletOrMobile && <img src={heroMobile} className='img-mobile'></img>}
-                {isBigScreen && <img src={heroDesktop}className='img-desktop'></img>}
+                {isTabletOrMobile && <img src={heroMobile} className='img-mobile' alt='hero'></img>}
+                {isBigScreen && <img src={heroDesktop}className='img-desktop' alt='hero'></img>}
             </div>
         </div>
     )

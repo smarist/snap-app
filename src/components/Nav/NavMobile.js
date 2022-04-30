@@ -1,8 +1,7 @@
 import React from "react"
 import NavMobileMenu from './NavMobileMenu'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars } from '@fortawesome/free-solid-svg-icons'
-  import { faCheckSquare, faCoffee, faTimes} from '@fortawesome/free-solid-svg-icons'
+import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons'
 
 
 
