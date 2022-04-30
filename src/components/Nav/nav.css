@@ -1,10 +1,14 @@
+* {
+    box-sizing: border-box;
+  }
+
 .nav-icon{
     font-size: 2rem;
   }
 
   .nav-icon1{
     font-size: 2rem;
-    margin-left: 12rem;
+    margin-left: 7rem;
     margin-top: -2rem;
     font-weight: lighter;
   }
@@ -39,10 +43,14 @@
   }
 
   .web-nav1{
-      flex-basis: 35%;
+      flex-basis: auto;
       display: flex;
       justify-content: space-between;
-      padding: 0.5rem;
+      padding: 0.5rem 1rem;
+  }
+
+  .web-nav1 li{
+      padding: 0.4rem;
   }
 
   .web-nav2{
@@ -147,28 +155,34 @@
     padding: 0.5rem 0.1rem;
     text-align: left;
     
-}
-.login-m{
-    margin-top: 0.2rem;
-    height: 2rem;
-    width: 16rem;
-    text-align: center;
-    padding-top: 0.8rem;
-    margin-left: -1.3rem;
-}
-.register-m{
-    margin-top: 0.2rem;
-    height: 2rem;
-    width: 16rem;
-    border: 2px solid black;
-    border-radius: 10px;
-    text-align: center;
-    padding-top: 0.8rem;
-    margin-left: -1.3rem;
+    
 }
 
 .mobile-nav2{
     margin-top: 2rem;
     display: flex;
+    justify-content: center;
     flex-flow: column;
 }
+
+.login-m{
+    margin-top: 0.2rem;
+    height: 2rem;
+    width: 10rem;
+    text-align: center;
+    padding: 0.4rem 0;
+    margin-left: -1.5rem;
+    
+}
+.register-m{
+    margin-top: 0.2rem;
+    height: 2rem;
+    width: 10rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 0.4rem 0;
+    margin-left: -1.5rem;
+}
+
+

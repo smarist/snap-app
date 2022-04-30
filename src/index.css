@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background: #FAFAFA;
   margin: 0;
@@ -9,30 +13,36 @@ body {
 h1{
   font-weight: 700;
 }
-.img-desktop{
-  width: 50vh;
-  height: fit-content;
-  margin-top: -2rem;
-  margin-left: 7rem;
-  
-}
-
-.img-mobile{
-  height: fit-content;
-  width: 50vh;
-}
 
 .side{
   padding: 6rem 10rem;
   display: grid;
-  gap: 2rem;
-  grid-template-columns: 2fr 1.5fr;
-  grid-template-rows: 60vh;
+  margin: 0 auto;
+  grid-gap: 1rem;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: auto;
+  border: 2px solid red;
 }
 
 .side1{
+  width: auto;
+  border: 2px solid red;
   display: flex;
   flex-direction: column;
+}
+
+.side2{
+  width: auto;
+  margin-top: -2rem;
+  border: 2px solid red;
+}
+
+.img-desktop{
+  width: 50vh;
+  height: auto;
+  margin-top: -2rem;
+  margin-left: 7rem;
+  
 }
 
 .list-svg{
@@ -88,15 +98,24 @@ p{
 
 }
 
-.side2{
-  margin-top: -2rem;
-}
 
 @media screen  and (max-width:  899px){
+  body {
+    background: #FAFAFA;
+    height: 100%;
+    padding: 2rem;
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 500;
+  }
   .side{
       padding: 1rem;
       display: flex;
       flex-direction: column-reverse;
+  }
+
+  .img-mobile{
+   width: 100%;
+  height: auto;
   }
   
   .side-h1{
@@ -109,6 +128,8 @@ p{
   
   .btn-div{
     height: 40%;
+    display: flex;
+    justify-content: center;
   }
   .side-btn{
     height: 3rem;
@@ -122,7 +143,6 @@ p{
     border-radius: 7px;
     margin-top: 2rem;
     text-align: center;
-    margin-left: 8rem;
   }
   
   .side-btn:hover{
@@ -145,10 +165,12 @@ p{
   
   .side2{
     margin-top: 2rem;
+    width: auto;
+    height: auto;
   }
 
   .list-svg{
-    width: 23.5rem;
+    width: auto;
     display: flex;
     justify-content: space-between;
     margin-top: 3rem;
