@@ -1,6 +1,6 @@
 import React from "react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCheckSquare, faChevronDown, faChevronUp, faTimes} from '@fortawesome/free-solid-svg-icons'
+import { faChevronDown, faChevronUp} from '@fortawesome/free-solid-svg-icons'
 import {ReactComponent as CalendarSvg} from "../images/icon-calendar.svg"
 import {ReactComponent as PlanningSvg} from "../images/icon-planning.svg"
 import {ReactComponent as ReminderSvg} from "../images/icon-reminders.svg"
@@ -30,10 +30,10 @@ export default function NavWeb() {
     if(dropDown1){
         content = 
             <ul className="feature-list">
-                <li><TodoSvg/>Todo List</li>
-                <li><CalendarSvg/>Calendar</li>
-                <li><ReminderSvg/>Reminder</li>
-                <li><PlanningSvg/>Planning</li>
+                <li><TodoSvg className="f-svg"/>Todo List</li>
+                <li><CalendarSvg className="f-svg"/>Calendar</li>
+                <li><ReminderSvg className="f-svg"/>Reminder</li>
+                <li><PlanningSvg className="f-svg"/>Planning</li>
             </ul>
     }
 

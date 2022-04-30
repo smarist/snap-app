@@ -157,11 +157,13 @@ p{
   }
 
   .list-svg li{
+    bottom: 0;
     padding: 0 0.1rem;
     margin-left: -0.2rem;
   }
   .svg{
     transform: scale(0.7);
+    
   }
   
 }

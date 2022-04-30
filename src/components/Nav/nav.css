@@ -4,7 +4,7 @@
 
   .nav-icon1{
     font-size: 2rem;
-    margin-left: 14rem;
+    margin-left: 12rem;
     margin-top: -2rem;
     font-weight: lighter;
   }
@@ -66,9 +66,7 @@
       border-radius: 12px;
   }
 
-  .register:hover{
-
-  }
+ 
   .menu{
     position: fixed;
     background: white;
@@ -91,24 +89,86 @@
   }
 
  .feature-list{
+     padding: 0.4rem 1rem;
+     font-size: 14px;
      position: absolute;
-     margin-top: 1rem;
-     margin-left: -5rem;
+     margin-top: 0.8rem;
+     margin-left: -3.5rem;
      background: #FFFFFF;
-     height: 7rem;
+     height: 6.2rem;
      width: 6rem;
      border-radius: 1rem;
      box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
  }
 
+ .f-svg{
+     margin-right: 0.5rem;
+ }
+ .feature-list li{
+     padding: 0.2rem;
+ }
+
  .company-list{
-    position: absolute;
-    margin-top: 1rem;
-    margin-left: -4rem;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-    background: #FFFFFF;
-    height: 7rem;
-    width: 6rem;
-    border-radius: 1rem;
+    padding: 0.4rem 1rem;
+     font-size: 14px;
+     position: absolute;
+     margin-top: 0.8rem;
+     margin-left: -1.9rem;
+     background: #FFFFFF;
+     height: 4.2rem;
+     width: 4.5rem;
+     border-radius: 1rem;
+     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+ }
+ 
+ .company-list li{
+     padding: 0.2rem;
+ }
+
+
+.nav-mobile{
+    cursor: pointer;
+    display: flex;
+    height: 80vh;
+    flex-flow: column;
+    text-align: left;
+    margin-left: -3.0rem;
+    width: 17rem;
 }
 
+.mobile-nav1{
+    text-align: left;
+    display: flex;
+    flex-flow: column;
+    
+}
+
+.mobile-nav1 li{
+    padding: 0.5rem 0.1rem;
+    text-align: left;
+    
+}
+.login-m{
+    margin-top: 0.2rem;
+    height: 2rem;
+    width: 16rem;
+    text-align: center;
+    padding-top: 0.8rem;
+    margin-left: -1.3rem;
+}
+.register-m{
+    margin-top: 0.2rem;
+    height: 2rem;
+    width: 16rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 0.8rem;
+    margin-left: -1.3rem;
+}
+
+.mobile-nav2{
+    margin-top: 2rem;
+    display: flex;
+    flex-flow: column;
+}
