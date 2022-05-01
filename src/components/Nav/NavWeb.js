@@ -47,7 +47,7 @@ export default function NavWeb() {
     }
     return(
         <div className="nav-div-web">
-            <h1 className="web-title">Snap</h1>
+            <h1 className="web-title">Uc</h1>
             <nav className="nav-web">
                 <ul className="web-nav1">
                     <li className="features"

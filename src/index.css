@@ -23,7 +23,9 @@
 
   .img-mobile{
      width: 100%;
-     height: auto;
+     max-width: 100%;
+     max-height: 100%;
+     
   }
   
   .side-h1{
@@ -63,9 +65,8 @@
     text-align: center;
     font-size: 18px;
     height: 20%;
-    line-height: 30px;
-    word-spacing: 0.4rem;
-    width: auto;
+    line-height: 35px;
+    width: 80%;
     margin: 0 auto;
     margin-top: 1rem;
   
@@ -99,7 +100,7 @@
 }
 
 
-@media screen  and (min-width: 899px){
+@media screen  and (min-width: 960px){
 
   body {
     background: #FAFAFA;
@@ -110,72 +111,66 @@
 
 
   .side{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 6rem;
     display: flex;
-    flex-flow: row;
+    flex-flow: row nowrap;
     justify-content: space-between;
-    padding: 6rem 10rem;
-    border: 2px solid red;
     height: 100%;
   }
 
   .side1{
-    border: 2px solid red;
-    width: 20rem;
-    height: 100%;
+    margin: 0;
+    padding: 0;
+    max-width: 60%;
     min-width: 50%;
-    min-height: 100%;
+    display: flex;
+    flex-flow: column;
+    margin-left: 2rem;
+    
   }
 
   .side2{
+    margin: 0;
+    padding: 0;
     margin-top: -3rem;
-    border: 2px solid green;
     width: 25rem;
-    height: 100%;
     background-size: contain;
+    margin-right: 3.5rem;
   }
 
   
   .img-desktop{
-    border: 2px solid red;
     width: 25rem;
     min-width: 100%;
     min-height: 100%;
     object-fit: fill;
     
   }
-
-  .list-svg{
-    height: 10%;
-    width: auto;
-    display: flex;
-    justify-content: space-between;
-    padding: 0.4rem 0;
-    margin-top: -0.1rem;
-    margin-right: 16rem;
-    border: 2px solid red;
-    
-    
-  }
-
+  
   .h1-div{
     align-content: flex-start;
-    height: 24%;
+    height: 20%;
+    word-spacing: 0.7rem;
   }
 
   .side-h1{
-    font-size: 3.4rem;
+    font-size: 4.0rem;
     font-weight: 700;
     word-spacing: 0.2rem;
     margin: 0;
     text-align: left;
     word-spacing: 0.4rem;
+    min-width: 50%;
+    min-height: 50%;
+    max-width: 35rem ; 
     
   }
-
+ 
   .btn-div{
-    height: 40%;
-    border: 2px solid red;
     width: 15rem;
+    margin-top: 4rem;
   }
 
   .side-btn{
@@ -190,25 +185,35 @@
     cursor: pointer;
     border-radius: 7px;
     margin-top: 2rem;
-    
+    align-content: flex-start;
   }
 
   .side-btn:hover{
     background: white;
     color: black;
-    border: 2px solid black;
   }
 
   p{
     text-align: left;
     font-size: 18px;
-    height: 20%;
     line-height: 30px;
-    word-spacing: 0.4rem;
-    width: 30rem;
+    word-spacing: 0.7rem;
+    max-width: 35rem;
+    min-width: 20rem;
     margin-left: -0.1rem;
     margin-right: 16rem;
-    margin-top: 2rem;
+    margin-top: 4rem;
 
   }
+
+  .list-svg{
+    height: 10%;
+    min-width: 10rem;
+    max-width: 35rem ; 
+    padding: 0.4rem 0;
+    margin-left: 0rem;
+  
+  }
+  
+ 
 }

@@ -28,7 +28,7 @@ export default function NavMobile() {
     }
     return(
         <div className="nav-div-web">
-            <h1>Snap</h1>
+            <h1>Uc</h1>
             <FontAwesomeIcon
                 icon={faBars}
                 onClick={()=> setShowMenu(true)}
