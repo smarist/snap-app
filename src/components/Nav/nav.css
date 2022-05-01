@@ -51,7 +51,7 @@
   }
 
   .web-nav1 li{
-      padding: 0.4rem;
+      padding: 0.4rem 1.5rem;
   }
 
   .web-nav2{
@@ -62,7 +62,7 @@
   }
   
   .web-nav2 li{
-      padding: 0.5rem 1.3rem;
+      padding: 0.5rem 1.7rem;
   }
   
   .login{
@@ -81,7 +81,7 @@
     background: white;
     top: 0;
     right: 0;
-    width: 40%;
+    width: 70%;
     height: 100%;
     padding: 3rem;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0,0,0,0.06);

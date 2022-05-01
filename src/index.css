@@ -14,6 +14,7 @@
     font-weight: 500;
     padding: 1rem;
   }
+
   .side{
       padding: 1rem;
       display: flex;
@@ -82,10 +83,10 @@
     justify-content: space-between;
     margin-top: 3rem;
     margin-bottom: -0.2rem;
-    text-align: center;
+    text-align: c
     
   }
-
+  
   .list-svg li{
     bottom: 0;
     padding: 0 0.1rem;
@@ -107,52 +108,52 @@
     font-weight: 500;
   }
 
-  h1{
-    font-weight: 700;
-  }
 
   .side{
-    width: auto;
-    display: grid;
-    margin: 0 auto;
-    padding: 6rem 4rem;
-    grid-template-columns: 2fr 1.5fr;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    padding: 6rem 10rem;
     border: 2px solid red;
+    height: 100%;
   }
 
   .side1{
-    margin: 0;
-    width: auto;
     border: 2px solid red;
-    display: flex;
-    flex-direction: column;
-    align-content: flex-start;
-    padding-left: 6rem;
+    width: 20rem;
+    height: 100%;
+    min-width: 50%;
+    min-height: 100%;
   }
 
   .side2{
-    width: auto;
-    margin-top: -2rem;
-    border: 2px solid red;
+    margin-top: -3rem;
+    border: 2px solid green;
+    width: 25rem;
+    height: 100%;
+    background-size: contain;
   }
 
+  
   .img-desktop{
     border: 2px solid red;
     width: 25rem;
-    height: auto;
-    object-fit: contain;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: fill;
     
   }
 
   .list-svg{
     height: 10%;
-    width: 30rem;
+    width: auto;
     display: flex;
     justify-content: space-between;
-    margin-top: 3rem;
-    margin-bottom: -0.2rem;
     padding: 0.4rem 0;
-    margin-left: 3rem;
+    margin-top: -0.1rem;
+    margin-right: 16rem;
+    border: 2px solid red;
+    
     
   }
 
@@ -163,6 +164,7 @@
 
   .side-h1{
     font-size: 3.4rem;
+    font-weight: 700;
     word-spacing: 0.2rem;
     margin: 0;
     text-align: left;
@@ -205,6 +207,8 @@
     word-spacing: 0.4rem;
     width: 30rem;
     margin-left: -0.1rem;
+    margin-right: 16rem;
+    margin-top: 2rem;
 
   }
 }
