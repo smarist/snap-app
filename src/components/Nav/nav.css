@@ -9,8 +9,8 @@
   .nav-icon1{
     padding-right: 2rem;
     font-size: 2rem;
-    margin-left: 7rem;
-    margin-top: -2rem;
+    margin-left: 10rem;
+    margin-top: -2.3rem;
     font-weight: lighter;
   }
 
@@ -81,9 +81,10 @@
     background: white;
     top: 0;
     right: 0;
-    width: 60%;
+    width: 55%;
     height: 100%;
     padding: 3rem;
+    z-index: 2;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0,0,0,0.06);
     
   }
@@ -172,7 +173,7 @@
     width: 10rem;
     text-align: center;
     padding: 0.4rem 0;
-    margin-left: -1.5rem;
+    
     
 }
 .register-m{
@@ -183,7 +184,17 @@
     border-radius: 10px;
     text-align: center;
     padding: 0.4rem 0;
-    margin-left: -1.5rem;
+}
+
+.feature-list-m{
+    margin-top: 1rem;
+}
+.company-list-m{
+    margin-top: 1rem;
+}
+
+.m-svg{
+    margin-right: 1rem;
 }
 
 
