@@ -71,7 +71,7 @@ export default function NavWeb() {
                         />
                         {content1}
                     </li>
-                    <Link to="/Features"><li>Careers</li></Link>
+                    <Link to="/Careers"><li>Careers</li></Link>
                     <li>About</li>
                 </ul>
                 <ul className="web-nav2">

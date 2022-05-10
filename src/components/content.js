@@ -18,9 +18,9 @@ export default function Content(){
                 
                 <p>Get your team in syn no matter your location. Streamline processes, create team rituals and watch productivity soar. </p>
                 <div className='btn-div'>
-                     <button className='side-btn'>Learn more</button>
+                     <button className='side-btn button'>Learn more</button>
                 </div>
-                <ul className='list-svg'>
+                <ul className='list-svg flex-row'>
                     <li><DataSvg className='svg'/></li>
                     <li><AudioSvg className='svg'/></li>
                     <li><MeetSvg className='svg'/></li>
