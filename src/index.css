@@ -14,10 +14,6 @@
   margin-bottom: 3rem;
 }
 
-.margin{
-  margin-left: -25rem;
-}
-
 .flex-col{
   display: flex;
   flex-flow: column wrap;
@@ -26,14 +22,16 @@
   align-items: center;
   justify-items: center;
 }
+
 .box-size span{
     align-self: center;
-    margin-top: 2rem;
+    margin-top: 1rem;
+    font-size: 2.5rem;
 }
 
 .flex-row{
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row;
   align-content: center;
   justify-content: space-between;
   align-items: center;
@@ -42,8 +40,9 @@
 }
 
 .box-size{
-  width: 6rem;
-  height: 6rem;
+  width: auto;
+  padding: 1.2rem;
+  height: auto;
   font-size: 2rem;
   background: black;
   color: #FAFAFA;
@@ -147,6 +146,11 @@
   .svg{
     transform: scale(0.7);
     
+  }
+
+  .padding{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
   
 }
@@ -259,7 +263,14 @@
     margin-left: 0rem;
   
   }
-  
+
+  .career-page{
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+    margin-top: 3rem;
+  }
+
   .career-page h1{
     word-spacing: 1rem;
   }
