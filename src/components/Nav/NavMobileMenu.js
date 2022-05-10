@@ -72,7 +72,7 @@ export default function NavMobileMenu(props) {
             </ul>
             <ul className="mobile-nav2">
                 <li className="login-m">Login</li>
-                <li className="register-m">Register</li>
+                <Link to="/Register"><li className="register-m">Register</li></Link>
             </ul>
         </nav>
                             

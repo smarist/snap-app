@@ -76,7 +76,7 @@ export default function NavWeb() {
                 </ul>
                 <ul className="web-nav2">
                     <li className="login">Login</li>
-                    <li className="register">Register</li>
+                    <Link to="/Register"><li className="register">Register</li></Link>
                 </ul>
             </nav>
                             
