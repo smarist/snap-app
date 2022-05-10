@@ -5,6 +5,7 @@ import {ReactComponent as CalendarSvg} from "../images/icon-calendar.svg"
 import {ReactComponent as PlanningSvg} from "../images/icon-planning.svg"
 import {ReactComponent as ReminderSvg} from "../images/icon-reminders.svg"
 import {ReactComponent as TodoSvg} from "../images/icon-todo.svg"
+import {Link} from "react-router-dom"
 
 export default function NavMobileMenu(props) {
     const [dropDown1, setDropDown1] = React.useState(false)
@@ -65,7 +66,8 @@ export default function NavMobileMenu(props) {
                     />
                     {content1}
                 </li>
-                <li>Careers</li>
+                <Link to="/Features"><li>Careers</li></Link>
+                
                 <li>About</li>
             </ul>
             <ul className="mobile-nav2">

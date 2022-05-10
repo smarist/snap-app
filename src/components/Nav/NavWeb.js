@@ -5,6 +5,7 @@ import {ReactComponent as CalendarSvg} from "../images/icon-calendar.svg"
 import {ReactComponent as PlanningSvg} from "../images/icon-planning.svg"
 import {ReactComponent as ReminderSvg} from "../images/icon-reminders.svg"
 import {ReactComponent as TodoSvg} from "../images/icon-todo.svg"
+import {Link} from "react-router-dom"
 
 
 
@@ -47,7 +48,8 @@ export default function NavWeb() {
     }
     return(
         <div className="nav-div-web">
-            <h1 className="web-title">Uc</h1>
+            <Link to="/"><h1 className="web-title">Uc</h1></Link>
+            
             <nav className="nav-web">
                 <ul className="web-nav1">
                     <li className="features"
@@ -69,7 +71,7 @@ export default function NavWeb() {
                         />
                         {content1}
                     </li>
-                    <li>Careers</li>
+                    <Link to="/Features"><li>Careers</li></Link>
                     <li>About</li>
                 </ul>
                 <ul className="web-nav2">

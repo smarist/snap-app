@@ -1,12 +1,12 @@
 import React from "react"
 import Content from "../components/content"
 
-function Home() {
+function Features() {
     return (
       <div className="App">
-        <Content/>
+        <h1>Hey you</h1>
       </div>
     );
   }
   
-  export default Home;
+  export default Features;
