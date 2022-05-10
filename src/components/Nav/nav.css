@@ -106,8 +106,8 @@
      margin-top: 0.8rem;
      margin-left: -3.5rem;
      background: #FFFFFF;
-     height: 6.2rem;
-     width: 6rem;
+     height: auto;
+     width: auto;
      border-radius: 1rem;
      box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
  }
@@ -116,18 +116,18 @@
      margin-right: 0.5rem;
  }
  .feature-list li{
-     padding: 0.2rem;
+     padding: 0.2rem;   
  }
 
  .company-list{
-    padding: 0.4rem 1rem;
+     padding: 0.4rem 1rem;
      font-size: 14px;
      position: absolute;
      margin-top: 0.8rem;
      margin-left: -1.9rem;
      background: #FFFFFF;
-     height: 4.2rem;
-     width: 4.5rem;
+     height: auto;
+     width: auto;
      border-radius: 1rem;
      box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
  }
