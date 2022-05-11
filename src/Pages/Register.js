@@ -35,7 +35,7 @@ export default function Register() {
     }
     
     return (
-        <div>
+        <div className="align">
            <h3>Register for our services</h3>
            <div className="form-container">
                 <form className="form" onSubmit={handleSubmit}>
@@ -74,7 +74,7 @@ export default function Register() {
                             checked= {formData.okayToEmail}
                             
                         />
-                        <label htmlFor="okayToEmail">I want to join the newsletter</label>
+                        <label htmlFor="okayToEmail" className="small">I want to join the newsletter</label>
                     </div>
                     <button 
                         className="form--submit"
@@ -83,7 +83,7 @@ export default function Register() {
                     </button>
                 </form>
              </div>
-             <div>
+             <div className="flex">
                  <h4>Already have an account?</h4>
                  <Link to="/Login"><h4>Login</h4></Link>
              </div>

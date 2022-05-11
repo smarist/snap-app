@@ -31,8 +31,8 @@ export default function Login() {
     }
     
     return (
-        <div>
-           <h3>Hello</h3>
+        <div className="align">
+           <h2>Hello!!</h2>
            <h3>Login to your account</h3>
            <div className="form-container">
                 <form className="form" onSubmit={handleSubmit}>
@@ -61,9 +61,9 @@ export default function Login() {
                     </button>
                 </form>
              </div>
-             <div>
+             <div className="flex">
                  <h4>Don't have an account?</h4>
-                 <Link to="/Register"><h4>Login</h4></Link>
+                 <Link to="/Register"><h4>Register</h4></Link>
              </div>
         </div>
     )
