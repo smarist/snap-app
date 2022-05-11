@@ -24,7 +24,7 @@ export default function NavMobile() {
         </div>
        
         menuMask=
-        <div className="menuMask">
+        <div className="menuMask" onClick={()=> setShowMenu(false)}>
         </div>
     }
     return(

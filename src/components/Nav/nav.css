@@ -90,7 +90,7 @@ a{
     background: white;
     top: 0;
     right: 0;
-    width: 40%;
+    width: 55%;
     height: 100%;
     padding: 3rem;
     padding-right: 4rem;
@@ -99,6 +99,9 @@ a{
     
   }
   
+  .menu::after{
+      
+  }
   .menuMask{
     background: rgba(0,0,0,0.5);
     position: fixed;
