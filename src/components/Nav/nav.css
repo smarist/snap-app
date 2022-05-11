@@ -99,8 +99,12 @@ a{
     
   }
   
-  .menu::after{
-      
+  .menu:before{
+      transform: translateY(-50%) rotate(45deg) scale(1);
+  }
+
+  .menu:after{
+    transform: translateY(-50%) rotate(-45deg) scale(1);
   }
   .menuMask{
     background: rgba(0,0,0,0.5);
