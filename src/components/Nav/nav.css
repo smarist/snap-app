@@ -80,13 +80,17 @@ a{
       border-radius: 12px;
   }
 
+  .register:hover{
+    background: #1C1C1C;
+    color: white;
+ }
  
   .menu{
     position: fixed;
     background: white;
     top: 0;
     right: 0;
-    width: 50%;
+    width: 40%;
     height: 100%;
     padding: 3rem;
     padding-right: 4rem;
@@ -191,6 +195,11 @@ a{
     border-radius: 10px;
     text-align: center;
     padding: 0.4rem 0;
+}
+
+.register-m:hover{
+    background: #1C1C1C;
+    color: white;
 }
 
 .feature-list-m{

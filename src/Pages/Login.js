@@ -2,15 +2,12 @@ import React from "react"
 import "../css/register.css"
 import {Link} from "react-router-dom"
 
-export default function Register() {
+export default function Login() {
     
     const [formData, setFormData] = React.useState(
       {
         email: "",
         password: "",
-        confirmPassword: "",
-        okayToEmail: false,
-
       }
     )
 
@@ -31,12 +28,12 @@ export default function Register() {
 
         formData.okayToEmail === true && formData.confirmPassword === formData.password && console.log("Thanks for signing up for our newsletter!") 
 
-        console.log(formData)
     }
     
     return (
         <div>
-           <h3>Register for our services</h3>
+           <h3>Hello</h3>
+           <h3>Login to your account</h3>
            <div className="form-container">
                 <form className="form" onSubmit={handleSubmit}>
                     <input 
@@ -56,36 +53,17 @@ export default function Register() {
                         onChange= {handleChange}
                         value= {formData.password}
                     />
-                    <input 
-                        type="password" 
-                        placeholder="Confirm password"
-                        className="form--input"
-                        name= "confirmPassword"
-                        onChange= {handleChange}
-                        value= {formData.confirmPassword}
-                    />
-                    
-                    <div className="form--marketing">
-                        <input
-                            id="okayToEmail"
-                            type="checkbox"
-                            name= "okayToEmail"
-                            onChange= {handleChange}
-                            checked= {formData.okayToEmail}
-                            
-                        />
-                        <label htmlFor="okayToEmail">I want to join the newsletter</label>
-                    </div>
+                    <h6>Forget your password?</h6>
                     <button 
                         className="form--submit"
                     >
-                        Register
+                        Login
                     </button>
                 </form>
              </div>
              <div>
-                 <h4>Already have an account?</h4>
-                 <Link to="/Login"><h4>Login</h4></Link>
+                 <h4>Don't have an account?</h4>
+                 <Link to="/Register"><h4>Login</h4></Link>
              </div>
         </div>
     )
