@@ -2,7 +2,6 @@ import React from "react"
 import NavMobileMenu from './NavMobileMenu'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons'
-import {Link} from "react-router-dom"
 
 
 
@@ -24,13 +23,12 @@ export default function NavMobile() {
         </div>
        
         menuMask=
-        <div className="menuMask" onClick={()=> setShowMenu(false)}>
+        <div className="menuMask">
         </div>
     }
     return(
         <div className="nav-div-web">
-            <Link to="/"><h1>Uc</h1></Link>
-            
+            <h1>Uc</h1>
             <FontAwesomeIcon
                 icon={faBars}
                 onClick={()=> setShowMenu(true)}
