@@ -74,7 +74,7 @@ export default function Register() {
                             checked= {formData.okayToEmail}
                             
                         />
-                        <label htmlFor="okayToEmail" className="small">I want to join the newsletter</label>
+                        <label htmlFor="okayToEmail" className="small">I agree to the terms and conditions</label>
                     </div>
                     <button 
                         className="form--submit"
