@@ -41,13 +41,14 @@
   }
 
   .small{
-      margin-top: 0.25rem;
-      font-size: 0.69rem;
+      margin-top: 0.28rem;
+      font-size: 0.6rem;
       align-self: flex-start;
-      margin-left: -0.5rem;
+      margin-left: -0.56rem;
   }
+
   .form {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     background-color: white;
     padding: 2rem;
@@ -115,4 +116,10 @@
     cursor: pointer; 
   }
   
+  .small{
+    margin-top: 0.25rem;
+    font-size: 0.69rem;
+    align-self: flex-start;
+    margin-left: -0.5rem;
+}
 }
