@@ -42,8 +42,9 @@
 
   .small{
       margin-top: 0.25rem;
-      font-size: 0.8rem;
+      font-size: 0.69rem;
       align-self: flex-start;
+      margin-left: -0.5rem;
   }
   .form {
     width: 80%;
