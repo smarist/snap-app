@@ -13,8 +13,8 @@ a{
 
   .nav-icon1{
     padding-right: 2rem;
-    font-size: 2rem;
-    margin-left: 8.8rem;
+    font-size: 1.5rem;
+    margin-left: 6.8rem;
     margin-top: -2.3rem;
     font-weight: lighter;
   }
@@ -90,7 +90,7 @@ a{
     background: white;
     top: 0;
     right: 0;
-    max-width: 50%;
+    max-width: 50.5%;
     height: 100%;
     padding: 3rem;
     padding-right: 4rem;
