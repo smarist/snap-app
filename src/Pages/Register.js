@@ -14,6 +14,7 @@ export default function Register() {
       }
     )
 
+    
     function handleChange(event){
       const {name, value,type, checked} = event.target
       
