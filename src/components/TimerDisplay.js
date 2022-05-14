@@ -3,7 +3,7 @@ import React from "react"
 
 export default function TimerDisplay(props){
     return(
-        <div className="flex-row align">
+        <div className="flex-row">
             <div className="flex-col">
                 <div className="box-size flex-col button"><span>{props.day}</span></div>
                 <span>Days</span>

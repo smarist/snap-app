@@ -36,7 +36,8 @@
   justify-content: space-between;
   align-items: center;
   justify-items: center;
-  width: auto;
+  max-width: auto;
+  gap: 0.4rem;
 }
 
 .box-size{
